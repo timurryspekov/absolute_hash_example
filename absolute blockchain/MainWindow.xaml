@@ -1,0 +1,23 @@
+﻿<Window x:Class="absolute_blockchain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:absolute_blockchain"
+        mc:Ignorable="d"
+        Title="Absolute Blockchain" Height="461.17" Width="469.681" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Icon="SU78gI0fpfY.ico">
+    <Grid>
+        <Label Content="Project name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="pr" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="431"/>
+        <Label Content="Author:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="author" HorizontalAlignment="Left" Height="23" Margin="10,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="431"/>
+        <Label Content="Encryption:" HorizontalAlignment="Left" Margin="13,148,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="type_enc" HorizontalAlignment="Left" Margin="20,179,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="256,179,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
+        <Button Content="Connect" HorizontalAlignment="Left" Margin="206,227,0,0" VerticalAlignment="Top" Width="221" Height="36" Click="Button_Click"/>
+        <Button Content="Off function" HorizontalAlignment="Left" Margin="206,282,0,0" VerticalAlignment="Top" Width="221" Height="36" Click="Button_Click_1"/>
+        <Label Content="COM port for QRNG:" HorizontalAlignment="Left" Margin="256,148,0,0" VerticalAlignment="Top"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="10,343,0,0" VerticalAlignment="Top" Width="431" Height="36" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
